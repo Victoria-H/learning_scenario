@@ -1,8 +1,64 @@
-.content {
-	color:blue;
+body{
+	font-family:questrial;
+    background-color:#477187;		
 }
 
+.teacher {
+	background-color:white;	
+}
+.headingMAIN {
+	position: fixed;
+	height: 80px;
+	background: #28546C;
+	width:100%;
+	margin-left:-10px;
+	margin-top:-15px;
+	padding:20px;
+	text-align:center;
+	font-size:24px;
+	color:#477187;
+	
+}
 
+.contentMAIN {
+text-align:center;
+padding-top:150px;
+}
+
+.content {
+	padding:20px;
+	padding-top:120px;
+	
+}
+
+h1 {
+	color:#28546C;
+}
+
+.bigbutt {
+
+	background-color:#6F90A2;
+	padding:20px;
+	border-radius:20px;
+	color:#D3DFE6;
+	font-size:30px;
+	text-decoration:none;
+	margin:20px;
+}
+
+.nav {
+	color:#D3DFE6;
+	font-size:20px;
+	text-decoration:none;
+	margin:10px;
+	padding-left:15px;
+	border-left: solid 1px #477187;
+}
+
+.sow td {
+	border: 1px solid gray;
+	padding: 5px;
+}
 
 
 
