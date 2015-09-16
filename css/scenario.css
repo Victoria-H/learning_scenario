@@ -31,6 +31,16 @@ padding-top:150px;
 	
 }
 
+.slide{
+	position: absolute;
+	padding:20px;
+	display:none;	
+}
+
+#slide1 {
+	display:block;
+}
+
 h1 {
 	color:#28546C;
 }
