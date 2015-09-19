@@ -8,21 +8,30 @@ body{
 }
 .headingMAIN {
 	position: fixed;
-	height: 100px;
+	height: 120px;
 	background: #28546C;
 	width:100%;
 	margin-left:-10px;
 	margin-top:-15px;
 	padding:10px;
 	text-align:center;
-	font-size:24px;
-	color:#477187;
-	
+	font-size:40px;
+	color:#477187;	
+}
+
+.background {
+	position:absolute;
+	font-size:100px;
+	text-align:center;
+	z-index:-1;
+	color:#4B748A;
+	font-style:italic;
+	word-wrap: break-word;
 }
 
 .contentMAIN {
 text-align:center;
-padding-top:100px;
+padding-top:140px;
 }
 
 .content {
@@ -31,10 +40,24 @@ padding-top:100px;
 	
 }
 
+#ba {
+	border: solid 10px #D3DFE6;
+}
+
+.slidebutton {
+	background-color:#6F90A2;
+	padding:5px;
+	border-radius:5px;
+	color:#D3DFE6;
+	font-size:20px;
+	text-decoration:none;
+	margin:10px;
+}
 .slide{
 	position: absolute;
 	padding:20px;
-	display:none;	
+	display:none;
+	z-index:-1;
 }
 
 #slide1 {

@@ -3,15 +3,38 @@ body {
 	color: #5E7915;
 	font-family: Questrial;
 	font-size:20px;
-	padding: 10px;
+	padding: 30px;
 }
+
+
+.background {
+	position:absolute;
+	font-size:100px;
+	text-align:center;
+	z-index:-1;
+	color:#89A43D;
+	font-style:italic;
+	word-wrap: break-word;
+	margin:-50px;
+	
+	padding:-20px;
+}
+
 
 .menu {
 	text-decoration:none;
 	color:#3B5100;
 	font-size:40px;
 	
-	
+
+}
+
+a:hover { 
+	color: #5E7915;
+}
+
+.hr {
+	margin-top:-40px;
 }
 
 .content {
@@ -37,11 +60,15 @@ body {
 }
 
 .mybutt {
-		background-color:#AEC965;
+	background-color:#AEC965;
 	padding:20px;
 	border-radius:20px;
 	color:#84A136;
 	font-size:30px;
 	text-decoration:none;
 	margin:20px;
+}
+
+.ac{
+	margin-top:-35px;
 }
